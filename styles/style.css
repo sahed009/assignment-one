@@ -313,3 +313,77 @@ nav ul li h2 {
 }
 
 /* Support section styles  */
+.support {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 64px 48px;
+}
+.support-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 0 205px;
+}
+.support-content h1 {
+  color: white;
+}
+.support-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.support-desc {
+  color: white;
+  margin-bottom: 24px;
+  line-height: 26px;
+}
+.support-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"] {
+  padding: 20px;
+  color: #9ea1a6;
+  font-size: 16px;
+  width: 550px;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 16px;
+}
+input[type="submit"] {
+  padding: 17px 20px;
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* footer styles */
+footer {
+  margin-top: 80px;
+  padding: 40px 0;
+  background: #f8f8f8;
+}
+footer > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#contactIcon ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
