@@ -52,16 +52,16 @@ nav ul li h2 {
 }
 
 .banner-img {
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 .banner-content {
   width: 928px;
-  height: 212px;
+  height: 350px;
 }
 .banner-title {
   font-size: 48px;
   font-weight: 800;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 .banner-description {
   line-height: 26px;
