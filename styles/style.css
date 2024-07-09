@@ -102,6 +102,7 @@ nav ul li h2 {
 .why-web-desc {
   text-align: center;
   margin-bottom: 48px;
+  line-height: 26px;
 }
 
 .why-web-card-container .card-1 {
@@ -171,6 +172,7 @@ nav ul li h2 {
 .inspiration-desc {
   text-align: center;
   margin-bottom: 48px;
+  line-height: 26px;
 }
 .inspiration-content {
   padding: 32px;
@@ -195,6 +197,7 @@ nav ul li h2 {
 .current-target-desc {
   text-align: center;
   margin-bottom: 48px;
+  line-height: 26px;
 }
 .current-target-cards {
   display: flex;
@@ -210,13 +213,13 @@ nav ul li h2 {
 }
 .current-target-cards .card-2 {
   padding: 40px;
-  background: #F2F6FE;
+  background: #f2f6fe;
   border-radius: 16px;
   max-width: 370px;
 }
 .current-target-cards .card-3 {
   padding: 40px;
-  background: #FFFDF2;
+  background: #fffdf2;
   border-radius: 16px;
   max-width: 370px;
 }
@@ -245,5 +248,68 @@ nav ul li h2 {
   color: #0d1321;
   font-weight: 700;
   cursor: pointer;
-} 
+}
 /* Next target  */
+.next-target {
+  margin-top: 111px;
+}
+.next-target-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.next-target-desc {
+  text-align: center;
+  margin-bottom: 48px;
+  line-height: 26px;
+}
+.next-target-cards .card-1 {
+  padding: 40px;
+  display: flex;
+  border: 1px solid #dbdcde;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.next-target-cards .card-2 {
+  padding: 40px;
+  display: flex;
+  border: 1px solid #dbdcde;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.next-target-cards .card-3 {
+  padding: 40px;
+  display: flex;
+  border: 1px solid #dbdcde;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.next-target-cards .card-img {
+  margin-right: 24px;
+}
+.next-target-cards .card-img img {
+  max-width: 100%;
+  height: auto;
+}
+.next-target-cards .card-title {
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.next-target-cards .card-desc {
+  margin-bottom: 24px;
+  line-height: 26px;
+}
+.next-target-cards .card-btn {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+.next-target-cards .card-btn a {
+  text-decoration: none;
+  color: #0d1321;
+  font-weight: 700;
+}
+
+/* Support section styles  */
