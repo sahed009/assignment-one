@@ -4,8 +4,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-body {
   font-family: "Azeret Mono", monospace;
   color: #0d1321;
   scroll-behavior: smooth;
@@ -136,28 +134,116 @@ nav ul li h2 {
   border-radius: 16px;
 }
 .why-web-card-container .card-items {
-    max-width: 500px;
+  max-width: 500px;
 }
 .why-web-card-container .card-items .card-title {
-    font-size: 24px;
-    font-weight: bold;
-    opacity: 70%;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 70%;
 }
-.why-web-card-container .card-items .card-desc 
-{
-    margin: 16px 0 32px 0;
-    line-height: 26px;
+.why-web-card-container .card-items .card-desc {
+  margin: 16px 0 32px 0;
+  line-height: 26px;
 }
 .why-web-card-container .card-img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 .why-web-card-container .card-btn {
-    padding: 12px 20px;
-    font-size: 20px;
-    font-weight: 600;
-    background: transparent;
-    color: #0d1321;
-    border: 1px solid #0d1321;
-    cursor: pointer;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  background: transparent;
+  color: #0d1321;
+  border: 1px solid #0d1321;
+  cursor: pointer;
 }
+/* Inspiration styles */
+.inspiration {
+  margin-top: 90px;
+}
+.inspiration-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.inspiration-desc {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.inspiration-content {
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inspiration-content iframe {
+  border-radius: 16px;
+}
+
+/* current target  */
+.current-target {
+  margin-top: 150px;
+}
+.current-target-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.current-target-desc {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.current-target-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.current-target-cards .card-1 {
+  padding: 40px;
+  background: #fff6f4;
+  border-radius: 16px;
+  max-width: 370px;
+}
+.current-target-cards .card-2 {
+  padding: 40px;
+  background: #F2F6FE;
+  border-radius: 16px;
+  max-width: 370px;
+}
+.current-target-cards .card-3 {
+  padding: 40px;
+  background: #FFFDF2;
+  border-radius: 16px;
+  max-width: 370px;
+}
+
+.current-target-cards .card-img {
+  max-width: 100%;
+  height: auto;
+}
+.current-target-cards .card-title {
+  margin-top: 24px;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.current-target-cards .card-desc {
+  line-height: 26px;
+  min-width: 300px;
+  opacity: 70%;
+  margin-bottom: 24px;
+}
+.current-target-cards .card-btn {
+  border: none;
+}
+.current-target-cards .card-btn a {
+  text-decoration: none;
+  color: #0d1321;
+  font-weight: 700;
+  cursor: pointer;
+} 
+/* Next target  */
